@@ -3,10 +3,10 @@ import confetti from 'canvas-confetti';
 import { writePersonalityResult, fetchPersonalityStats } from '../firebase';
 
 const VIBE_KEYWORDS = {
-  witty: ['joke', 'jokes', 'lol', 'pun', 'puns', 'probably', 'honestly', 'sarcas', 'funny', 'humor', 'warning', 'spoiler', 'butcher', 'judge', 'blame', 'apparently'],
-  romantic: ['heart', 'connection', 'genuine', 'real', 'deep', 'soul', 'love', 'beautiful', 'feel', 'emotion', 'romantic', 'honest'],
-  adventurous: ['adventure', 'travel', 'dare', 'spontaneous', 'bold', 'wild', 'explore', 'wander', 'lost', 'trip', 'road', 'thrill'],
-  intellectual: ['read', 'book', 'debate', 'think', 'curious', 'museum', 'podcast', 'learn', 'teach', 'theory', 'philosophy', 'nerd'],
+  witty: ['joke', 'jokes', 'lol', 'pun', 'puns', 'probably', 'honestly', 'sarcas', 'funny', 'humor', 'warning', 'spoiler', 'judge', 'blame', 'apparently', 'bonus', 'points', 'slightly', 'questionable', 'convince', 'weird', 'terrible', 'secretly', 'confess'],
+  romantic: ['heart', 'connection', 'soul', 'love', 'beautiful', 'emotion', 'romantic', 'genuine', 'feel', 'honest'],
+  adventurous: ['adventure', 'travel', 'dare', 'spontaneous', 'bold', 'wild', 'explore', 'wander', 'lost', 'trip', 'road', 'thrill', 'world', 'challenge', 'adrenaline', 'conquer', 'night', 'seeking'],
+  intellectual: ['read', 'book', 'debate', 'think', 'curious', 'museum', 'podcast', 'learn', 'teach', 'theory', 'philosophy', 'nerd', 'conversation', 'complex', 'mind', 'discuss', 'analyze', 'nuance', 'perspective', 'ideas'],
 };
 
 const PERSONALITIES = {
